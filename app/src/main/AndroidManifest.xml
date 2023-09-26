@@ -13,6 +13,9 @@
         android:theme="@style/Theme._04EnviarYRecibirInformacion"
         tools:targetApi="31">
         <activity
+            android:name=".CrearDireccionActivity"
+            android:exported="false" />
+        <activity
             android:name=".DesencriptarActivity"
             android:exported="false" />
         <activity

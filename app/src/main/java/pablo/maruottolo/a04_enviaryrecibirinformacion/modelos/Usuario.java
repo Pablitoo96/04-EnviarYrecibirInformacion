@@ -32,9 +32,7 @@ public class Usuario implements Serializable {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "email='" + email + '\'' +
+                ", password='" + password + '\'';
     }
 }
